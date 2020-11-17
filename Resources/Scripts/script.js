@@ -1,4 +1,4 @@
-const socket = io.connect('https://www.LeoTheDev.github.io');
+const socket = io.connect('http://localhost:3000');
 
 socket.on('Socket-Connected', data =>{
 	console.log(data);
